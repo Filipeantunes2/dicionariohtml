@@ -27,7 +27,7 @@
 
 <h4>Exemplo:</h4>
 
-  <p> <img src ="taghiperlink.png" alt="Formato não suportado!" width="500" height="150"></p>
+  <p> <img src ="taghiperlink.png" alt="Formato não suportado!" width="450" height="150"></p>
 
   <a href="https://filipeantunes.netlify.app/">Visite meu site!</a>
 
@@ -38,7 +38,7 @@
 
 <h4>Exemplo:</h4>
 
-<p><img src ="tag address.png" alt ="Formato não suportado!" width="500" height="200"></p>
+<p><img src ="tagaddress.png" alt ="Formato não suportado!" width="450" height="200"></p>
 
 <address>
     Escrito por <a href="mailto:filipe_r_antunes@estudante.sesisenai.org.br">Filipe Antunes</a>.<br> 
@@ -58,7 +58,7 @@
     Há três formatos de áudio suportados em HTML: MP3, WAV e OGG.</p>
 
     <h4>Exemplo:</h4>
-    <p><img src = "tagdeaudio.png" alt = "formato não suportado" width="500" height="200"></p>
+    <p><img src = "tagdeaudio.png" alt = "formato não suportado" width="450" height="200"></p>
     <audio controls>
         <source src="audio.mp3" type ="audio/mpeg">
         Formato não suportado!
@@ -69,14 +69,14 @@
 
     A &lt;video&gt; tag contém uma ou mais &lt;source&gt; tags com diferentes fontes de vídeo. O navegador escolherá a primeira fonte que ele suporta.</p>
     <h4>Exemplo:</h4>
-    <p><img src = "tagvideo.svg" alt = "Formato não suportado" width="500" height="200" ></p>
+    <p><img src = "tagvideo.svg" alt = "Formato não suportado" width="450" height="200" ></p>
     <video width="320" height="240" controls>
         <source src="video.mp4" type="video/mp4">
         Formato não suportado!
     </video>
 
 
-  <h3>Tag de botão clicável</h3>
+  <h3>Tag de botão</h3>
         <p>HTML
 
             &lt;button&gt; Define um botão clicável.&lt;/button&gt;
@@ -88,7 +88,69 @@
 <p>sempre especifique o type atributo de um &lt;button&gt; elemento para informar aos navegadores que tipo de botão é.
      Você pode estilizar botões facilmente com CSS! Veja os exemplos abaixo ou visite nosso tutorial de Botões CSS</p>
 <h4>Exemplo: </h4>
-<button type="button" onclick="alert('Hello world!')">Click Me!</button>
+<img src="tagdebotão.png" alt = "Formato não suportado!" width="450" height="200">
+
+<p><button type="button" onclick="alert('Hello world!')">Click Me!</button></p>
+
+<h3>Tag detalhes</h3>
+<p>A tag &lt;details&gt; especifica detalhes adicionais que o usuário pode abrir e fechar sob demanda.
+
+    A tag &lt;details&gt; é frequentemente usada para criar um widget interativo que o usuário pode abrir e fechar. 
+        Por padrão, o widget é fechado. Quando aberto, ele se expande e exibe o conteúdo dentro dele.</p>
+        <h4>Exemplo:</h4>
+        <img src="tagdetails.png" alt="Formato não suportado!"  width="400" height="120">
+
+        <details>
+            <summary>Dica</summary>
+            <p>A tag &lt;summary&gt; é usada em conjunto com &lt;details&gt; para especificar um título visível para os detalhes.</p>
+          </details>
+
+        <h3>Tag input element</h3>
+        <p>A tag &lt;input&gt; especifica um campo de entrada onde o usuário pode inserir dados.
+
+            O &lt;input&gt; elemento é o elemento de formulário mais importante.
+            
+            O &lt;input&gt;elemento pode ser exibido de várias maneiras, dependendo do atributo type.</p>
+
+            <details>
+                <summary>Os diferentes tipos de entrada são os seguintes:</summary>
+                <p>&lt;input type="button"&gt;<br>
+                    &lt;input type="checkbox"&gt;<br>
+                    &lt;input type="color"&gt;<br>
+                    &lt;input type="date"&gt;<br>
+                    &lt;input type="datetime-local"&gt;<br>
+                    &lt;input type="email"&gt;<br>
+                    &lt;input type="file"&gt;<br>
+                    &lt;input type="hidden"&gt;<br>
+                    &lt;input type="image"&gt;<br>
+                    &lt;input type="month"&gt;<br>
+                    &lt;input type="number"&gt;<br>
+                    &lt;input type="password"&gt;<br>
+                    &lt;input type="radio"&gt;<br>
+                    &lt;input type="range"&gt;<br>
+                    &lt;input type="reset"&gt;<br>
+                    &lt;input type="search"&gt;<br>
+                    &lt;input type="submit"&gt;<br>
+                    &lt;input type="tel"&gt;<br>
+                    &lt;input type="text"&gt;(valor padrão)<br>
+                    &lt;input type="time"&gt;<br>
+                    &lt;input type="url"&gt;<br>
+                    &lt;input type="week"&gt;<br></p>
+            </details>
+            <h4>Exemplo:</h4>
+            <img src="taginput.png" alt="Formato não suportado!" width="400" height="150">
+            <form action="/action_page.php">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <input type="submit" value="Submit">
+              </form>
+
+              
+              
+              
+
 
 </body>
 </html>
